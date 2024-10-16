@@ -1,0 +1,399 @@
+[
+    {
+      "question": "What is the correct way to define a function in Python?",
+      "correct_answer": "def my_function():",
+      "incorrect_answers": [
+        "function my_function():",
+        "create my_function():",
+        "define my_function()"
+      ]
+    },
+    {
+      "question": "Which of the following is a Python data type?",
+      "correct_answer": "List",
+      "incorrect_answers": [
+        "Array",
+        "Hash",
+        "Object"
+      ]
+    },
+    {
+      "question": "What keyword is used to create a class in Python?",
+      "correct_answer": "class",
+      "incorrect_answers": [
+        "def",
+        "function",
+        "object"
+      ]
+    },
+    {
+      "question": "How do you start a comment in Python?",
+      "correct_answer": "#",
+      "incorrect_answers": [
+        "//",
+        "/*",
+        "<!--"
+      ]
+    },
+    {
+      "question": "What does the len() function do?",
+      "correct_answer": "Returns the length of an object",
+      "incorrect_answers": [
+        "Returns the size of an object",
+        "Returns the type of an object",
+        "Returns the first element of an object"
+      ]
+    },
+    {
+      "question": "Which of the following is used to handle exceptions in Python?",
+      "correct_answer": "try...except",
+      "incorrect_answers": [
+        "try...catch",
+        "except...catch",
+        "catch...finally"
+      ]
+    },
+    {
+      "question": "What is the output of print(type([]))?",
+      "correct_answer": "<class 'list'>",
+      "incorrect_answers": [
+        "<type 'list'>",
+        "list",
+        "<class 'array'>"
+      ]
+    },
+    {
+      "question": "What is the purpose of the 'self' keyword in Python?",
+      "correct_answer": "It refers to the instance of the class",
+      "incorrect_answers": [
+        "It refers to the parent class",
+        "It refers to the current module",
+        "It is used for private variables"
+      ]
+    },
+    {
+      "question": "Which of the following is the correct syntax for a while loop in Python?",
+      "correct_answer": "while condition: ...",
+      "incorrect_answers": [
+        "while (condition) { ... }",
+        "while [condition]: ...",
+        "while {condition}: ..."
+      ]
+    },
+    {
+      "question": "What is the output of print(2 ** 3)?",
+      "correct_answer": "8",
+      "incorrect_answers": [
+        "6",
+        "9",
+        "23"
+      ]
+    },
+    {
+      "question": "What is the method to add an item to a list in Python?",
+      "correct_answer": "append()",
+      "incorrect_answers": [
+        "add()",
+        "insert()",
+        "push()"
+      ]
+    },
+    {
+      "question": "How do you create a variable with the numeric value 5?",
+      "correct_answer": "x = 5",
+      "incorrect_answers": [
+        "5 = x",
+        "x := 5",
+        "int x = 5"
+      ]
+    },
+    {
+      "question": "Which statement is used to exit a loop in Python?",
+      "correct_answer": "break",
+      "incorrect_answers": [
+        "exit",
+        "stop",
+        "end"
+      ]
+    },
+    {
+      "question": "How do you create a dictionary in Python?",
+      "correct_answer": "my_dict = {}",
+      "incorrect_answers": [
+        "my_dict = []",
+        "my_dict = ()",
+        "my_dict = dict()"
+      ]
+    },
+    {
+      "question": "Which of the following is a valid string in Python?",
+      "correct_answer": "'Hello, World!'",
+      "incorrect_answers": [
+        "\"Hello, World!\"",
+        "`Hello, World!`",
+        "Hello, World!"
+      ]
+    },
+    {
+      "question": "What is the output of print('Hello' + 'World')?",
+      "correct_answer": "'HelloWorld'",
+      "incorrect_answers": [
+        "'Hello World'",
+        "'Hello+World'",
+        "'HelloWorld!'"
+      ]
+    },
+    {
+      "question": "How can you read a file in Python?",
+      "correct_answer": "open('file.txt', 'r')",
+      "incorrect_answers": [
+        "read('file.txt')",
+        "open('file.txt')",
+        "get('file.txt')"
+      ]
+    },
+    {
+      "question": "What is the output of print(10 // 3)?",
+      "correct_answer": "3",
+      "incorrect_answers": [
+        "3.33",
+        "3.0",
+        "4"
+      ]
+    },
+    {
+      "question": "Which of the following is the correct way to create a tuple?",
+      "correct_answer": "my_tuple = (1, 2, 3)",
+      "incorrect_answers": [
+        "my_tuple = [1, 2, 3]",
+        "my_tuple = {1, 2, 3}",
+        "my_tuple = (1; 2; 3)"
+      ]
+    },
+    {
+      "question": "What is the purpose of the range() function?",
+      "correct_answer": "To generate a sequence of numbers",
+      "incorrect_answers": [
+        "To generate a list of numbers",
+        "To create an iterable",
+        "To convert a list into a set"
+      ]
+    },
+    {
+      "question": "Which symbol is used for string formatting in Python?",
+      "correct_answer": "%",
+      "incorrect_answers": [
+        "$",
+        "#",
+        "&"
+      ]
+    },
+    {
+      "question": "How do you access the first element of a list?",
+      "correct_answer": "list[0]",
+      "incorrect_answers": [
+        "list[1]",
+        "list.first()",
+        "list.first_element()"
+      ]
+    },
+    {
+      "question": "Which of the following methods can be used to remove an item from a list?",
+      "correct_answer": "remove()",
+      "incorrect_answers": [
+        "delete()",
+        "discard()",
+        "pop()"
+      ]
+    },
+    {
+      "question": "What will be the output of print(bool(0))?",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True",
+        "None",
+        "0"
+      ]
+    },
+    {
+      "question": "Which of the following is not a built-in data type in Python?",
+      "correct_answer": "Pointer",
+      "incorrect_answers": [
+        "List",
+        "Tuple",
+        "Dictionary"
+      ]
+    },
+    {
+      "question": "How do you create a virtual environment in Python?",
+      "correct_answer": "python -m venv myenv",
+      "incorrect_answers": [
+        "python create venv myenv",
+        "create venv myenv",
+        "virtualenv myenv"
+      ]
+    },
+    {
+      "question": "What is the output of print('Python'[-1])?",
+      "correct_answer": "'n'",
+      "incorrect_answers": [
+        "'P'",
+        "'o'",
+        "'y'"
+      ]
+    },
+    {
+      "question": "Which keyword is used to define a generator function?",
+      "correct_answer": "yield",
+      "incorrect_answers": [
+        "return",
+        "generate",
+        "def"
+      ]
+    },
+    {
+      "question": "Which of the following is used to import a module in Python?",
+      "correct_answer": "import module_name",
+      "incorrect_answers": [
+        "include module_name",
+        "require module_name",
+        "load module_name"
+      ]
+    },
+    {
+      "question": "What does the pass statement do?",
+      "correct_answer": "It is a null operation",
+      "incorrect_answers": [
+        "It terminates the program",
+        "It throws an error",
+        "It breaks the loop"
+      ]
+    },
+    {
+      "question": "What is the output of print(3 * 'ab')?",
+      "correct_answer": "'ababab'",
+      "incorrect_answers": [
+        "'ab'",
+        "'3ab'",
+        "'a3b'"
+      ]
+    },
+    {
+      "question": "How do you get the current working directory in Python?",
+      "correct_answer": "os.getcwd()",
+      "incorrect_answers": [
+        "os.current()",
+        "os.directory()",
+        "os.path()"
+      ]
+    },
+    {
+      "question": "What is the output of print('Hello World'.split())?",
+      "correct_answer": "['Hello', 'World']",
+      "incorrect_answers": [
+        "'Hello World'",
+        "['Hello World']",
+        "['Hello','World']"
+      ]
+    },
+    {
+      "question": "Which operator is used to check if two variables are equal?",
+      "correct_answer": "==",
+      "incorrect_answers": [
+        "=",
+        "===",
+        "!="
+      ]
+    },
+    {
+      "question": "What is the function of the map() in Python?",
+      "correct_answer": "Applies a function to all items in an iterable",
+      "incorrect_answers": [
+        "Filters items in an iterable",
+        "Returns a list of items",
+        "Reverses an iterable"
+      ]
+    },
+    {
+      "question": "How do you create a new class that inherits from another class?",
+      "correct_answer": "class SubClass(ParentClass):",
+      "incorrect_answers": [
+        "class SubClass extends ParentClass:",
+        "class SubClass inherits ParentClass:",
+        "class SubClass : ParentClass"
+      ]
+    },
+    {
+      "question": "Which of the following is a mutable data type in Python?",
+      "correct_answer": "List",
+      "incorrect_answers": [
+        "Tuple",
+        "String",
+        "Dictionary"
+      ]
+    },
+    {
+      "question": "What does the zip() function do?",
+      "correct_answer": "Combines two or more iterables",
+      "incorrect_answers": [
+        "Filters items in an iterable",
+        "Sorts items in an iterable",
+        "Returns the length of iterables"
+      ]
+    },
+    {
+      "question": "How do you create a copy of a list in Python?",
+      "correct_answer": "list.copy()",
+      "incorrect_answers": [
+        "list.clone()",
+        "list.deepcopy()",
+        "list.duplicate()"
+      ]
+    },
+    {
+      "question": "What will be the output of print(type(None))?",
+      "correct_answer": "<class 'NoneType'>",
+      "incorrect_answers": [
+        "None",
+        "<type 'NoneType'>",
+        "null"
+      ]
+    },
+    {
+      "question": "Which of the following is used to raise an exception?",
+      "correct_answer": "raise ExceptionName",
+      "incorrect_answers": [
+        "throw ExceptionName",
+        "except ExceptionName",
+        "catch ExceptionName"
+      ]
+    },
+    {
+      "question": "What is the output of print(0b1010)?",
+      "correct_answer": "10",
+      "incorrect_answers": [
+        "2",
+        "8",
+        "16"
+      ]
+    },
+    {
+      "question": "Which function is used to get user input in Python?",
+      "correct_answer": "input()",
+      "incorrect_answers": [
+        "get_input()",
+        "read_input()",
+        "scan()"
+      ]
+    },
+    {
+      "question": "What is the purpose of the with statement?",
+      "correct_answer": "To wrap the execution of a block with methods defined by a context manager",
+      "incorrect_answers": [
+        "To define a function",
+        "To create a loop",
+        "To handle exceptions"
+      ]
+    }
+  ]
+  

@@ -1,0 +1,752 @@
+[
+    {
+      "category": "Programming",
+      "correct_answer": "Python",
+      "incorrect_answers": ["Java", "C++", "Ruby"],
+      "question": "Which programming language is known for its readability?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "Flask",
+      "incorrect_answers": ["Django", "Rails", "Spring"],
+      "question": "Which framework is a micro web framework for Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "PEP 8",
+      "incorrect_answers": ["PEP 20", "PEP 2", "PEP 18"],
+      "question": "What is the style guide for Python code called?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "List Comprehension",
+      "incorrect_answers": ["List Deletion", "List Creation", "List Reduction"],
+      "question": "What is the term for a concise way to create lists in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "Anaconda",
+      "incorrect_answers": ["Pip", "Virtualenv", "Docker"],
+      "question": "Which distribution is popular for data science in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "NumPy",
+      "incorrect_answers": ["Pandas", "Matplotlib", "Scikit-learn"],
+      "question": "Which library is used for numerical computations in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "Python",
+      "incorrect_answers": ["JavaScript", "C#", "Ruby"],
+      "question": "Which language is used for backend development in Django?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "print()",
+      "incorrect_answers": ["echo()", "display()", "show()"],
+      "question": "Which function is used to output text in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "True",
+      "incorrect_answers": ["False", "None", "0"],
+      "question": "In Python, what is the Boolean value for 'yes'?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "def",
+      "incorrect_answers": ["function", "method", "declare"],
+      "question": "What keyword is used to define a function in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "List",
+      "incorrect_answers": ["Tuple", "Set", "Dictionary"],
+      "question": "What is the data structure that allows duplicate items in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "5",
+      "incorrect_answers": ["4", "6", "7"],
+      "question": "What is the output of len([1, 2, 3, 4, 5])?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "None",
+      "incorrect_answers": ["0", "False", "NaN"],
+      "question": "What is the return value of a function that does not have a return statement?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "Mutable",
+      "incorrect_answers": ["Immutable", "Fixed", "Static"],
+      "question": "Are lists mutable in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "import this",
+      "incorrect_answers": ["import python", "from this import", "this"],
+      "question": "What command displays the Zen of Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "Lambda",
+      "incorrect_answers": ["Map", "Filter", "Reduce"],
+      "question": "What keyword is used to create anonymous functions in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "DataFrame",
+      "incorrect_answers": ["Array", "List", "Matrix"],
+      "question": "What is the primary data structure in the Pandas library?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "os",
+      "incorrect_answers": ["sys", "shutil", "pathlib"],
+      "question": "Which module is used for interacting with the operating system?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "input()",
+      "incorrect_answers": ["read()", "scan()", "get()"],
+      "question": "Which function is used to take input from the user in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "range()",
+      "incorrect_answers": ["list()", "set()", "dict()"],
+      "question": "Which function generates a sequence of numbers?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "strip()",
+      "incorrect_answers": ["trim()", "remove()", "clean()"],
+      "question": "Which method removes leading and trailing whitespace from a string?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "sorted()",
+      "incorrect_answers": ["order()", "arrange()", "sort()"],
+      "question": "Which function is used to sort a list in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "None",
+      "incorrect_answers": ["False", "True", "0"],
+      "question": "What is the return value of 'print()'?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "x += 1",
+      "incorrect_answers": ["x =+ 1", "x + 1", "x = x + 1"],
+      "question": "Which statement is used to increment a variable x by 1?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "if",
+      "incorrect_answers": ["else", "switch", "elif"],
+      "question": "What keyword is used to start a conditional statement in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "for",
+      "incorrect_answers": ["while", "do", "each"],
+      "question": "What keyword is used to create a loop that iterates over a sequence?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "is",
+      "incorrect_answers": ["==", "equals", "== operator"],
+      "question": "Which keyword is used to test object identity in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "break",
+      "incorrect_answers": ["stop", "exit", "end"],
+      "question": "Which statement is used to exit a loop in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "continue",
+      "incorrect_answers": ["skip", "next", "pass"],
+      "question": "Which statement is used to skip the current iteration of a loop?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "except",
+      "incorrect_answers": ["finally", "catch", "else"],
+      "question": "Which keyword is used in exception handling to catch errors?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "try",
+      "incorrect_answers": ["catch", "throw", "handle"],
+      "question": "Which keyword is used to start a block of code that will be tested for errors?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "with",
+      "incorrect_answers": ["using", "open", "as"],
+      "question": "Which keyword is used to wrap the execution of a block with methods defined by a context manager?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "list()",
+      "incorrect_answers": ["array()", "set()", "dict()"],
+      "question": "Which function creates a new list in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "append()",
+      "incorrect_answers": ["add()", "insert()", "extend()"],
+      "question": "Which method is used to add an item to the end of a list?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "remove()",
+      "incorrect_answers": ["del()", "discard()", "pop()"],
+      "question": "Which method is used to remove an item from a list by value?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "pop()",
+      "incorrect_answers": ["delete()", "remove()", "discard()"],
+      "question": "Which method removes and returns the last item from a list?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "slice",
+      "incorrect_answers": ["split", "index", "length"],
+      "question": "What is the term for extracting a portion of a list?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "key",
+      "incorrect_answers": ["func", "predicate", "sorter"],
+      "question": "Which parameter is used to specify a function to be called on each list element for sorting?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "any()",
+      "incorrect_answers": ["some()", "exists()", "contains()"],
+      "question": "Which function returns True if any element of the iterable is true?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "all()",
+      "incorrect_answers": ["every()", "check()", "each()"],
+      "question": "Which function returns True if all elements of the iterable are true?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "sum()",
+      "incorrect_answers": ["total()", "add()", "combine()"],
+      "question": "Which function returns the sum of all items in an iterable?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "map()",
+      "incorrect_answers": ["apply()", "transform()", "process()"],
+      "question": "Which function applies a function to all items in an iterable?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "filter()",
+      "incorrect_answers": ["remove()", "exclude()", "reject()"],
+      "question": "Which function constructs an iterator from those elements of iterable for which a function returns true?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "reduce()",
+      "incorrect_answers": ["fold()", "aggregate()", "combine()"],
+      "question": "Which function is used to apply a function cumulatively to the items of an iterable?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "join()",
+      "incorrect_answers": ["concat()", "combine()", "merge()"],
+      "question": "Which method is used to join elements of a list into a string?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "class",
+      "incorrect_answers": ["object", "type", "instance"],
+      "question": "What keyword is used to define a class in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "self",
+      "incorrect_answers": ["this", "me", "cls"],
+      "question": "What is the first parameter of instance methods in Python classes?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "constructor",
+      "incorrect_answers": ["initializer", "creator", "builder"],
+      "question": "What is the method called that initializes a class instance?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "inheritance",
+      "incorrect_answers": ["polymorphism", "encapsulation", "composition"],
+      "question": "What is the term for a class that derives from another class?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "staticmethod",
+      "incorrect_answers": ["classmethod", "instance", "property"],
+      "question": "What decorator is used to define a static method in a class?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "classmethod",
+      "incorrect_answers": ["staticmethod", "instance", "property"],
+      "question": "What decorator is used to define a class method in a class?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "property",
+      "incorrect_answers": ["attribute", "field", "variable"],
+      "question": "What decorator is used to define a property in a class?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "yield",
+      "incorrect_answers": ["return", "pause", "continue"],
+      "question": "What keyword is used to return a generator?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "dict",
+      "incorrect_answers": ["array", "set", "list"],
+      "question": "What is the data structure that stores key-value pairs in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "zip()",
+      "incorrect_answers": ["pair()", "group()", "combine()"],
+      "question": "Which function takes iterables as arguments and returns an iterator of tuples?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "type()",
+      "incorrect_answers": ["class()", "instance()", "object()"],
+      "question": "Which function returns the type of an object?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "getattr()",
+      "incorrect_answers": ["setattr()", "hasattr()", "delattr()"],
+      "question": "Which function retrieves an attribute from an object?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "setattr()",
+      "incorrect_answers": ["getattr()", "hasattr()", "delattr()"],
+      "question": "Which function sets the value of an attribute of an object?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "hasattr()",
+      "incorrect_answers": ["getattr()", "setattr()", "delattr()"],
+      "question": "Which function checks if an object has a specified attribute?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "delattr()",
+      "incorrect_answers": ["getattr()", "setattr()", "hasattr()"],
+      "question": "Which function deletes an attribute from an object?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "try",
+      "incorrect_answers": ["catch", "finally", "except"],
+      "question": "Which keyword is used to handle exceptions in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "finally",
+      "incorrect_answers": ["except", "try", "raise"],
+      "question": "Which keyword is used to specify a block of code that will execute regardless of whether an exception was raised?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "raise",
+      "incorrect_answers": ["throw", "catch", "generate"],
+      "question": "Which keyword is used to raise an exception in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "assert",
+      "incorrect_answers": ["verify", "check", "confirm"],
+      "question": "Which statement is used for debugging purposes to test a condition?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "__init__",
+      "incorrect_answers": ["constructor", "initialize", "__create"],
+      "question": "What is the name of the constructor method in a class?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "self",
+      "incorrect_answers": ["this", "cls", "me"],
+      "question": "Which keyword is used to refer to the instance of the class in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "isinstance()",
+      "incorrect_answers": ["type()", "check()", "instance()"],
+      "question": "Which function checks if an object is an instance of a class or a subclass thereof?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "issubclass()",
+      "incorrect_answers": ["isinstance()", "check()", "subclass()"],
+      "question": "Which function checks if a class is a subclass of another class?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "super()",
+      "incorrect_answers": ["parent()", "base()", "self()"],
+      "question": "Which function returns a temporary object of the superclass?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "property()",
+      "incorrect_answers": ["attribute()", "setter()", "getter()"],
+      "question": "Which function is used to create properties in a class?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "with",
+      "incorrect_answers": ["try", "do", "using"],
+      "question": "Which keyword is used to wrap the execution of a block with methods defined by a context manager?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "os",
+      "incorrect_answers": ["sys", "shutil", "pathlib"],
+      "question": "Which module is used for interacting with the operating system?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "time",
+      "incorrect_answers": ["datetime", "calendar", "date"],
+      "question": "Which module provides various time-related functions?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "datetime",
+      "incorrect_answers": ["time", "calendar", "date"],
+      "question": "Which module supplies classes for manipulating dates and times?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "random",
+      "incorrect_answers": ["math", "statistics", "os"],
+      "question": "Which module implements pseudo-random number generators for various distributions?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "json",
+      "incorrect_answers": ["pickle", "yaml", "xml"],
+      "question": "Which module is used for parsing JSON in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "csv",
+      "incorrect_answers": ["json", "xml", "pickle"],
+      "question": "Which module is used for reading and writing CSV files?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "requests",
+      "incorrect_answers": ["http", "urllib", "aiohttp"],
+      "question": "Which library is used for making HTTP requests in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "BeautifulSoup",
+      "incorrect_answers": ["Scrapy", "lxml", "Requests"],
+      "question": "Which library is commonly used for web scraping in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "matplotlib",
+      "incorrect_answers": ["seaborn", "plotly", "pandas"],
+      "question": "Which library is used for creating static, animated, and interactive visualizations in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "pandas",
+      "incorrect_answers": ["numpy", "matplotlib", "scipy"],
+      "question": "Which library provides data structures and data analysis tools for Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "scikit-learn",
+      "incorrect_answers": ["tensorflow", "pytorch", "keras"],
+      "question": "Which library is used for machine learning in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "numpy",
+      "incorrect_answers": ["pandas", "matplotlib", "scikit-learn"],
+      "question": "Which library is used for numerical computations in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "tensorflow",
+      "incorrect_answers": ["keras", "scikit-learn", "pytorch"],
+      "question": "Which library is widely used for deep learning in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "pytest",
+      "incorrect_answers": ["unittest", "doctest", "nose"],
+      "question": "Which testing framework is used for writing simple and scalable test cases in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "unittest",
+      "incorrect_answers": ["pytest", "doctest", "nose"],
+      "question": "Which built-in library is used for testing Python code?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "flask",
+      "incorrect_answers": ["django", "fastapi", "pyramid"],
+      "question": "Which Python framework is known for its simplicity and lightweight structure?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "Django",
+      "incorrect_answers": ["Flask", "FastAPI", "Pyramid"],
+      "question": "Which Python framework follows the MTV architectural pattern?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "FastAPI",
+      "incorrect_answers": ["Flask", "Django", "Pyramid"],
+      "question": "Which Python framework is designed for building APIs with Python 3.6+ based on standard Python type hints?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "pyramid",
+      "incorrect_answers": ["Flask", "Django", "FastAPI"],
+      "question": "Which Python web framework is designed to make it easy to build web applications quickly?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "web2py",
+      "incorrect_answers": ["Flask", "Django", "Pyramid"],
+      "question": "Which web framework for Python is known for its ease of deployment?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "bottle",
+      "incorrect_answers": ["Flask", "Django", "Pyramid"],
+      "question": "Which micro web framework is used for building small web applications in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "SQLAlchemy",
+      "incorrect_answers": ["Django ORM", "Peewee", "Pandas"],
+      "question": "Which library is used for SQL database access in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "sqlite3",
+      "incorrect_answers": ["mysql.connector", "psycopg2", "SQLAlchemy"],
+      "question": "Which module provides a lightweight disk-based database in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "matplotlib",
+      "incorrect_answers": ["pandas", "seaborn", "plotly"],
+      "question": "Which library is primarily used for plotting graphs and charts in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "Pillow",
+      "incorrect_answers": ["OpenCV", "scikit-image", "matplotlib"],
+      "question": "Which library is used for opening, manipulating, and saving many different image file formats?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "pyttsx3",
+      "incorrect_answers": ["gTTS", "speech_recognition", "pyAudio"],
+      "question": "Which library is used for text-to-speech conversion in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "speech_recognition",
+      "incorrect_answers": ["gTTS", "pyttsx3", "pydub"],
+      "question": "Which library is used for recognizing speech in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "pyqt",
+      "incorrect_answers": ["tkinter", "wxPython", "pygame"],
+      "question": "Which library is used for creating desktop applications with a graphical user interface in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "pygame",
+      "incorrect_answers": ["tkinter", "pyqt", "Kivy"],
+      "question": "Which library is commonly used for game development in Python?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "pyinstaller",
+      "incorrect_answers": ["cx_Freeze", "py2exe", "py2app"],
+      "question": "Which tool is used to convert Python applications into stand-alone executables?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "pip",
+      "incorrect_answers": ["conda", "setuptools", "easy_install"],
+      "question": "Which package manager is used for installing Python packages?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "virtualenv",
+      "incorrect_answers": ["venv", "conda", "pip"],
+      "question": "Which tool is used to create isolated Python environments?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "requirements.txt",
+      "incorrect_answers": ["setup.py", "environment.yml", "Pipfile"],
+      "question": "Which file is used to list dependencies for a Python project?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "setup.py",
+      "incorrect_answers": ["requirements.txt", "Pipfile", "environment.yml"],
+      "question": "Which file is used to provide package information to setuptools?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "Pipfile",
+      "incorrect_answers": ["requirements.txt", "setup.py", "environment.yml"],
+      "question": "Which file is used to manage dependencies for a Python project with pipenv?",
+      "type": "multiple"
+    },
+    {
+      "category": "Programming",
+      "correct_answer": "environment.yml",
+      "incorrect_answers": ["requirements.txt", "setup.py", "Pipfile"],
+      "question": "Which file is used to define the environment for a Python project with conda?",
+      "type": "multiple"
+    }
+  ]
+  
