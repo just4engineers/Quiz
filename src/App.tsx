@@ -23,7 +23,7 @@ const App: React.FC = () => {
   const [userAnswers, setUserAnswers] = useState<AnswerObject[]>([]);
   const [score, setScore] = useState(0);
   const [gameOver, setGameOver] = useState(true);
-  const [error, setError] = useState<string | null>(null);  // Added error state
+  const [error, setError] = useState<string | null>(null);
 
   const startTrivia = async () => {
     setLoading(true);
@@ -31,7 +31,6 @@ const App: React.FC = () => {
     setError(null); // Reset any previous error
 
     try {
-      // Fetch quiz questions (without difficulty filtering)
       const newQuestions = await fetchQuizQuestions(TOTAL_QUESTIONS);
 
       if (newQuestions.length === 0) {
@@ -58,6 +57,7 @@ const App: React.FC = () => {
       const answer = e.currentTarget.value;
       const correct = questions[number].correct_answer === answer;
       if (correct) setScore((prev) => prev + 1);
+
       const answerObject = {
         question: questions[number].question,
         answer,
@@ -84,27 +84,41 @@ const App: React.FC = () => {
         <h1>QUIZ</h1>
         {gameOver || userAnswers.length === TOTAL_QUESTIONS ? (
           <button className='start' onClick={startTrivia}>
-            Start
+            {loading ? 'Loading...' : 'Start'}
           </button>
         ) : null}
-        {!gameOver ? <p className='score'>Score: {score}</p> : null}
-        {loading ? <p>Loading Questions...</p> : null}
-        {error ? <p>{error}</p> : null} {/* Show error message */}
-        {!loading && !gameOver && questions.length > 0 && (
-          <QuestionCard
-            questionNr={number + 1}
-            totalQuestions={TOTAL_QUESTIONS}
-            question={questions[number].question}
-            answers={questions[number].answers}
-            userAnswer={userAnswers ? userAnswers[number] : undefined}
-            callback={checkAnswer}
-          />
+
+        {!gameOver && userAnswers.length === TOTAL_QUESTIONS && (
+          <p className='score'>Final Score: {score} / {TOTAL_QUESTIONS}</p>
         )}
-        {!gameOver && !loading && userAnswers.length === number + 1 && number !== TOTAL_QUESTIONS - 1 ? (
+
+        {loading && <p>Loading Questions...</p>}
+        {error && <p className="error">{error}</p>} {/* Show error message */}
+
+        {!loading && !gameOver && questions.length > 0 && (
+          <>
+            <QuestionCard
+              questionNr={number + 1}
+              totalQuestions={TOTAL_QUESTIONS}
+              question={questions[number].question}
+              answers={questions[number].answers}
+              userAnswer={userAnswers ? userAnswers[number] : undefined}
+              callback={checkAnswer}
+            />
+          </>
+        )}
+
+        {!gameOver && !loading && userAnswers.length === number + 1 && number !== TOTAL_QUESTIONS - 1 && (
           <button className='next' onClick={nextQuestion}>
             Next Question
           </button>
-        ) : null}
+        )}
+
+        {gameOver && (
+          <button className='start' onClick={startTrivia}>
+            Start Again
+          </button>
+        )}
       </Wrapper>
     </>
   );
