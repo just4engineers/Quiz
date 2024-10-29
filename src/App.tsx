@@ -82,6 +82,28 @@ const App: React.FC = () => {
       <GlobalStyle />
       <Wrapper>
         <h1>QUIZ</h1>
+                {/* Add the "Give an Interview" button */}
+                {!gameOver && userAnswers.length === TOTAL_QUESTIONS &&(
+                  <button 
+    className='give-interview-button' 
+    onClick={() => window.location.href = 'http://localhost:3000/dashboard'}
+    style={{
+      backgroundColor: '#001f3f', // Dark navy blue background
+      color: 'white', // White text
+      padding: '10px 20px', // Padding for the button
+      border: 'none', // No border
+      borderRadius: '5px', // Rounded corners
+      cursor: 'pointer', // Pointer cursor on hover
+      fontSize: '16px', // Font size
+      transition: 'background-color 0.3s ease', // Smooth transition
+    }}
+    onMouseOver={e => e.currentTarget.style.backgroundColor = '#001a33'} // Darker shade on hover
+    onMouseOut={e => e.currentTarget.style.backgroundColor = '#001f3f'} // Original shade on mouse out
+  >
+    Give an Interview →
+  </button>
+        
+        )}
         {gameOver || userAnswers.length === TOTAL_QUESTIONS ? (
           <button className='start' onClick={startTrivia}>
             {loading ? 'Loading...' : 'Start'}
@@ -114,11 +136,7 @@ const App: React.FC = () => {
           </button>
         )}
 
-        {gameOver && (
-          <button className='start' onClick={startTrivia}>
-            Start Again
-          </button>
-        )}
+
       </Wrapper>
     </>
   );

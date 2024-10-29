@@ -4,10 +4,35 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <title>Genz Placement Trainer</title>
+    <script src="https://cdn.tailwindcss.com"></script> <!-- Include Tailwind via CDN -->
   </head>
-  <body>
-    <div id="root"></div>
+  <body class="bg-gray-50 text-gray-900">
+    
+    <!-- Navbar -->
+    <div class="flex p-4 items-center justify-between bg-secondary shadow-sm mb-4">
+      <img src="/flogo.svg"/>
+      <ul class="hidden md:flex gap-6">
+        <li class="hover:text-primary hover:font-bold transition-all cursor-pointer">
+          <a href="/how-it-works">How it Works?</a>
+        </li>
+        <li class="hover:text-primary hover:font-bold transition-all cursor-pointer">
+          <a href="http://127.0.0.1:8000/">Resume Parser</a>
+        </li>
+        <li class="hover:text-primary hover:font-bold transition-all cursor-pointer">
+          <a href="http://localhost:5173/">Quiz</a>
+        </li>
+        <li class="hover:text-primary hover:font-bold transition-all cursor-pointer">
+          <a href="http://localhost:3000/dashboard">Interview Dashboard</a>
+        </li>
+      </ul>
+      <button class="bg-blue-500 text-white px-4 py-2 rounded-full">Log In</button>
+    </div>
+
+    <!-- React App Root -->
+    <div id="root" class="mx-auto max-w-7xl px-4"> <!-- Center content and limit max width -->
+    </div>
+
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

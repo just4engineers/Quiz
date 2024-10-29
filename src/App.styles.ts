@@ -1,29 +1,22 @@
 import styled, { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
-  html {
-    height: 100%;
+  * {
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
   }
 
   body {
-    background: #FEFEFE; /* White background */
     margin: 0;
-    padding: 0 20px;
-    display: flex;
-    justify-content: center;
-    color: #111827; /* Rich black for text */
-  }
-
-  * {
-    font-family: 'Catamaran', sans-serif;
-    box-sizing: border-box;
+    padding: 0;
+    background-color: #f7f8fa;
   }
 `;
 
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center;/* Space between navbar and quiz content */
 
   > p {
     color: #111827; /* Rich black text */
